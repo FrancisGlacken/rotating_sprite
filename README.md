@@ -1,6 +1,8 @@
 # rotating_sprite
 
-A new Flutter project.
+This project was made using https://flame-engine.org/ version: 1.0.0-rc5
+
+Feel free to do whatever with my code or the sprite
 
 ## Getting Started
 
