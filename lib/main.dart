@@ -35,9 +35,9 @@ class ExampleGame extends BaseGame {
 
   @override
     void update(double t) {
-      // TODO: implement update
       super.update(t);
 
+      // Apdate the angle(Rotate clockwise)
       planetComponent.angle = planetComponent.angle + t; 
     } 
 
