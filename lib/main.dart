@@ -6,8 +6,6 @@ import 'package:flame/extensions/vector2.dart';
 import 'package:flutter/material.dart' hide Image;
 import 'package:flame/game/base_game.dart';
 
-Vector2 spriteSize = Vector2.all(50);
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -37,7 +35,7 @@ class ExampleGame extends BaseGame {
     void update(double t) {
       super.update(t);
 
-      // Apdate the angle(Rotate clockwise)
+      // Rotate the component(Rotate clockwise)
       planetComponent.angle = planetComponent.angle + t; 
     } 
 
